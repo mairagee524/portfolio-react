@@ -1,25 +1,30 @@
 import React, { Component } from "react";
-import NavTabs from "./NavTabs";
+import NavBar from "./NavBar";
+import Portfolio from "./Portfolio";
+import Home from "./Home";
+import Contact from "./Contact";
+
+
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-class PortfolioContainer extends Component {
+class HomePage extends Component {
   state = {
-    currentPage: "About"
+    currentPage: "Home"
   };
 
   render() {
     return (
       <Router>
         <div>
-          <NavTabs />
-            <Route exact path="/" component={About} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/discover" component={Discover} />
-            <Route exact path="/search" component={Search} />
+          <NavBar />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
         </div>
       </Router>
     );
   }
 }
 
-export default PortfolioContainer;
+export default HomePage;

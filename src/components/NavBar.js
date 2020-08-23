@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function NavTabs(props) {
+function NavBar(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <Link className="navbar-brand" to="/">
-      Pupster
+      MG
     </Link>
     <div>
       <ul className="navbar-nav">
@@ -13,28 +13,28 @@ function NavTabs(props) {
           <Link
             to="/"
             className={
-              window.location.pathname === "/" || window.location.pathname === "/about"
+              window.location.pathname === "/" || window.location.pathname === "/home"
                 ? "nav-link active"
                 : "nav-link"
             }
           >
-            About
+            Home
           </Link>
         </li>
         <li className="nav-item">
           <Link
-            to="/discover"
-            className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
+            to="/portfolio"
+            className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
           >
-            Discover
+            Portfolio
           </Link>
         </li>
         <li className="nav-item">
           <Link
-            to="/search"
-            className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
+            to="/contact"
+            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
           >
-            Search
+            Contact
           </Link>
         </li>
       </ul>
@@ -43,4 +43,4 @@ function NavTabs(props) {
   );
 }
 
-export default NavTabs;
+export default NavBar;

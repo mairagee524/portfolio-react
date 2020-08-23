@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import NavBar from "./NavBar";
-import Portfolio from "./Portfolio";
-import Home from "./Home";
-import Contact from "./Contact";
+import Portfolio from "../pages/Portfolio";
+import Home from "../pages/Home";
+import Contact from "../pages/Contact";
 
 
 import { BrowserRouter as Router, Route } from "react-router-dom";

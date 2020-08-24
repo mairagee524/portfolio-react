@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
 import ParticlesBg from "particles-bg";
-import Header from "./Header";
 
 class Particles extends Component {
   constructor() {
@@ -13,9 +11,7 @@ class Particles extends Component {
 
   render() {
     return (
-      <Header>
           <ParticlesBg type="random" bg={true}/>
-      </Header>
     );
   }
 }

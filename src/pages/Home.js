@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header"
+import Header from "../components/Header/Header"
 // import Container from '../components/Container'
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
       {/* <Container> */}
         {/* <img src={HomePuppy} alt="Logo" />; */}
 
-        <Header></Header>
+        <Header />
         <h1>Home Puppy Love</h1>
         <p>
           This is the Home page.           

@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../Button';
+import Button from '../Button/Button';
 
 // import CssBaseline from '@material-ui/core/CssBaseline';
 // import Container from '@material-ui/core/Container';
@@ -9,7 +9,6 @@ export default function Album() {
   return (
     // <React.Fragment>
     //   <CssBaseline />
-      
       <div className="main">
         {/* <Container maxWidth="sm"> */}
 

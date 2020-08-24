@@ -1,0 +1,15 @@
+.button1 {
+    variant="contained" color="primary"
+}
+
+.button2 {
+    variant="outlined" color="primary"
+}
+
+heroButtons: {
+    marginTop: theme.spacing(4),
+  },
+
+  div {
+    container spacing={2} justify="center"
+  }

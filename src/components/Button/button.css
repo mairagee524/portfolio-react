@@ -1,15 +1,16 @@
 .button1 {
-    variant="contained" color="primary"
+    color: pink;
 }
 
 .button2 {
-    variant="outlined" color="primary"
+  color: rebeccapurple;
 }
 
-heroButtons: {
-    marginTop: theme.spacing(4),
-  },
+button {
+    margin-top: 30px;
+}
 
-  div {
-    container spacing={2} justify="center"
-  }
+.button-container {
+
+    justify-content: center;
+}

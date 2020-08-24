@@ -1,19 +1,15 @@
-heroContent: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(8, 0, 6),
-
-    backgroundColor:"transparent", 
-    position:"relative"
-  },
-  heroButtons: {
-    marginTop: theme.spacing(4),
-  },
-
-
-  h1 {
-    component="h1" variant="h2" align="center" color="textPrimary" gutterBottom
+.main {
+    background-color: transparent;
+    /* spacing:  (8, 0, 6), */
+    position: relative;
   }
 
-  p {
-    variant="h5" align="center" color="textSecondary" paragraph
+  .main-header {
+      text-align: center; 
+      color: wheat;
+  }
+
+  .main-blurb {
+    text-align: center; 
+    color: grey;
   }

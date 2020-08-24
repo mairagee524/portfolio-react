@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import ParticlesBg from "particles-bg";
-import Album from "./Album";
-import "./style.css";
+import Header from "./Header";
 
-class App extends Component {
+class Particles extends Component {
   constructor() {
     super();
     this.state = {
@@ -14,11 +13,11 @@ class App extends Component {
 
   render() {
     return (
-      <Album>
+      <Header>
           <ParticlesBg type="random" bg={true}/>
-      </Album>
+      </Header>
     );
   }
 }
 
-render(<App />, document.getElementById("root"));
+export default Particles

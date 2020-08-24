@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import NavBar from "./NavBar";
-import Header from "./Header"
 import Footer from "./Footer/Footer";
 import Portfolio from "../pages/Portfolio";
 import Home from "../pages/Home";
@@ -24,7 +23,6 @@ class HomePage extends Component {
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
         </div>
-        <Header />
         <Footer />
       </Router>
     );

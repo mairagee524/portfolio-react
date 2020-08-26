@@ -1,11 +1,10 @@
 import React from 'react';
 import Navigation from './components/Navigation';
-import HomePage from './components/HomePage';
+import Header from './components/Header';
 import PortfolioPage from './components/PortfolioPage';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-import './App.css';
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <ScrollToTop />
       <div className="App">
         <Navigation />
-        <Route exact path='/gcm-portfolio' component={HomePage} />
+        <Route exact path='/gcm-portfolio' component={Header} />
         <Route exact path='/gcm-portfolio/portfolio' component={PortfolioPage} />
         <Footer />
       </div>

@@ -5,10 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
-import passwordGenerator from './../assets/images/passwordGenerator.png';
-import weatherDashboard from './../assets/images/weatherDashboard.png';
-import blogSite from './../assets/images/blogSite.png';
 
+import blogSite from './../../public/img/portfolio/smirkspace.jpg'
 function Portfolio() {
   return (
     <div className="Portfolio-container" id="portfolio">
@@ -23,7 +21,7 @@ function Portfolio() {
         {/* Project cards */}
         <Row className="Portfolio-row">
         <ImageCard
-            src={passwordGenerator} 
+            src={blogSite} 
             title="Password Generator"
             description="A web application that uses prompts to generate a random password."
             tech="Made using: HTML, CSS, JavaScript, and GitHub Pages."
@@ -31,7 +29,7 @@ function Portfolio() {
             github="https://github.com/Guillermo-Martin/passwordGenerator"
           />
           <ImageCard
-            src={weatherDashboard} 
+            src={blogSite} 
             title="Weather Dashboard"
             description="A web application that provides the current weather and a 5-day forecast for a city."
             tech="HTML, CSS, JavaScript, jQuery, Bootstrap, OpenWeather API, Moment.js, and GitHub Pages."

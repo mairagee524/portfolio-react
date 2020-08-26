@@ -1,9 +1,9 @@
 import React from "react";
-import layers from "../img/layers.png";
-import cogwheel from "../img/cogwheel.png";
-import pen from "../img/pen.png";
-import browser from "../img/browser.png";
-import myImage from "../img/myImage.png";
+import layers from "../../public/img/layers.png";
+import cogwheel from "../../public/img/cogwheel.png";
+import pen from "../../public/img/pen.png";
+import browser from "../../public/img/browser.png";
+import myImage from "../../public/img/myImage.png";
 import PropTypes from "prop-types";
 
 export default class About extends React.Component {

@@ -110,6 +110,7 @@ let resumeData = {
   // ],
   portfolio: [
     {
+      key: "1",
       name: "Behlendor Law Offices",
       description: `
       local law firm seeks to increase online presence - `,
@@ -117,6 +118,7 @@ let resumeData = {
       url: "https://zcorpuz.github.io/behlendorfLaw/"
     },
     {
+      key: "2",
       name: "Soma Kitchen",
       description: "A local restaurant in Downtown Los Angeles requested a new modern look for the site., JavaScript, jQuery, Restful API, Node.js, Express.js, MySQL ",
       imgurl: "images/portfolio/workouttracker.gif",

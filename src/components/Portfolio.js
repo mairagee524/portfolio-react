@@ -13,9 +13,9 @@ export default class Porfolio extends Component {
    			  <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
 
-          {resumeData.portfolio && resumeData.portfolio.map((item)=>{
+          {resumeData.portfolio.map((item)=>{
             return(
-              <div className=" portfolio-item" style={{ width: "45%", display:"inline-block", margin: 15}}>
+              <div key={item.key} className=" portfolio-item" style={{ width: "45%", display:"inline-block", margin: 15}}>
                 <div className="item-wrap">
                   <a target="_blank" rel="noopener noreferrer" href={`${item.url}`}>
                     <img src={`${item.imgurl}`} className="item-img" alt="" style={{height: 330, width: "100%"}}/>

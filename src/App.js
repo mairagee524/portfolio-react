@@ -1,88 +1,29 @@
-import React from 'react';
-import Navigation from './components/Navigation';
-import Header from './components/Header';
-import PortfolioPage from './components/PortfolioPage';
-import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+import React, { Component } from "react";
+import Header from "./components/Header";
+import Portfolio from "./components/Portfolio";
+import AboutMe from "./components/AboutMe";
+import Testimonials from "./components/Testimonials";
+import ContactUs from "./components/ContactUs";
 
-function App() {
-  return (
-    <Router>
-      <ScrollToTop />
+
+// import Testimonials from "./components/Testimonials";
+// import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
+import resumeData from "./resumeData";
+
+class App extends Component {
+  render() {
+    return (
       <div className="App">
-        <Navigation />
-        <Route exact path='/gcm-portfolio' component={Header} />
-        <Route exact path='/gcm-portfolio/portfolio' component={PortfolioPage} />
-        <Footer />
+        <Header resumeData={resumeData} />
+        <AboutMe resumeData={resumeData} />
+        <Portfolio resumeData={resumeData} />        
+        <Testimonials resumeData={resumeData}/>
+        <ContactUs resumeData={resumeData} />
+        <Footer resumeData={resumeData} />
       </div>
-    </Router>
-    
-  );
+    );
+  }
 }
 
 export default App;
-
-
-
-
-// import React, { Component } from 'react';
-// import ReactGA from 'react-ga';
-// import $ from 'jquery';
-// import Header from './components/Header';
-// import Footer from './components/Footer';
-// import About from './components/About';
-// import Resume from './components/Resume';
-// import Contact from './components/Contact';
-// import Testimonials from './components/Testimonial';
-// import Portfolio from './components/Portfolio';
-
-// class App extends Component {
-
-//   constructor(props){
-//     super(props);
-//     this.state = {
-//       foo: 'bar',
-//       resumeData: {}
-//     };
-
-//     ReactGA.initialize('UA-110570651-1');
-//     ReactGA.pageview(window.location.pathname);
-
-//   }
-
-//   getResumeData(){
-//     $.ajax({
-//       url:'/resumeData.json',
-//       dataType:'json',
-//       cache: false,
-//       success: function(data){
-//         this.setState({resumeData: data});
-//       }.bind(this),
-//       error: function(xhr, status, err){
-//         console.log(err);
-//         alert(err);
-//       }
-//     });
-//   }
-
-//   componentDidMount(){
-//     this.getResumeData();
-//   }
-
-//   render() {
-//     return (
-//       <div className="App">
-//         <Header data={this.state.resumeData.main}/>
-//         <About data={this.state.resumeData.main}/>
-//         <Resume data={this.state.resumeData.resume}/>
-//         <Portfolio data={this.state.resumeData.portfolio}/>
-//         <Testimonials data={this.state.resumeData.testimonials}/>
-//         <Contact data={this.state.resumeData.main}/>
-//         <Footer data={this.state.resumeData.main}/>
-//       </div>
-//     );
-//   }
-// }
-
-// export default App;

@@ -14,11 +14,7 @@ export default class Testimonials extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.testimonials.map((oneTest)=>{
-                      console.log(oneTest.description);
-                      console.log(oneTest.name);
-                      console.log(oneTest.key);
-
+                    resumeData.testimonials.map((oneTest)=> {
 
                       return(
                         <li key={oneTest.key}>

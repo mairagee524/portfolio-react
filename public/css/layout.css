@@ -57,11 +57,6 @@ header .banner {
    text-align: center;
 }
 
-hello-world {
-   color: #cc005f;
-   font-family: 'poppins-bold', serif;
-}
-
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
@@ -71,11 +66,17 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'poppins', serif;
-   color: #cc005f;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 1px 2px rgba(194, 192, 192, 0.699);
+}
+
+#hello-world {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #cc005f;
+   font-size: 50px;
+   font-weight: 800px;
+   letter-spacing: 2px;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -123,7 +124,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #cc005f; }
 
 /* primary navigation
 --------------------------------------------------------------------- */

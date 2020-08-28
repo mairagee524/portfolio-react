@@ -13,7 +13,7 @@ export default class ContactUs extends Component {
           </div>
         </div>
         <div className="row button-section">
-            <a href="mairagarcia.codes@gmail.com" title="Contact Me" className="button stroke">Contact Me</a>
+            <a href="mailto:mairagarcia.codes@gmail.com" title="Contact Me" className="button stroke">Contact Me</a>
         </div>
       </section>
     );

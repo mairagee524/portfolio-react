@@ -6,6 +6,7 @@ export default class Footer extends Component {
       <footer>
       <div className="row">
         <div className="twelve columns">
+          <h3>Let's connect!</h3>
           <ul className="social-links">
             {resumeData.socialLinks.map((item)=>{
               return(

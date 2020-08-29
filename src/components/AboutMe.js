@@ -6,15 +6,15 @@ export default class AboutMe extends Component {
     return (
         <section id="about">  
 
-            <div class="row section-intro">
-                <div class="col-twelve">
+            <div className="row section-intro">
+                <div className="col-twelve">
 
                     <h5>About</h5>
                     <h1>Let me introduce myself.</h1>
 
-                    <div class="intro-info">
+                    <div className="intro-info">
 
-                        <img src="images/profile-pic.jpg" alt="Profile Picture"/>
+                        <img src="images/profile-pic.jpg" alt="Profile of MG"/>
 
                         <p className="lead">A UCLA alum since 2017, I am currently taking the Full-Stack Web Development Coding Bootcamp at UCLA Extension. I will update this page as I gain more experience through internships and volunteering opportunities. So far, my journey is going well as I am exposed to different concepts every time, whether I learn JavaScript, Node, Express, or MongoDB. My long-term goal is to create a form of technology that would assist underserved communities.</p> 
                         <br/>
@@ -23,10 +23,10 @@ export default class AboutMe extends Component {
                 </div>   		
             </div>
 
-            <div class="row button-section">
-                <div class="col-twelve">
-                    <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Contact Me</a>
-                    <a href="#" title="Download CV" class="button button-primary">Resume</a>
+            <div className="row button-section">
+                <div className="col-twelve">
+                    <a href="#contact" title="Hire Me" className="button stroke smoothscroll">Contact Me</a>
+                    <a href="#" title="Download CV" className="button button-primary">Resume</a>
                 </div>   		
             </div>
 

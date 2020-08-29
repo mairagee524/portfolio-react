@@ -282,11 +282,9 @@ ul#nav li.current a { color: #FF0077; }
 	width: 20rem;
 	border-radius: 50%;
 	margin: .9rem 0 2rem 0;
-	/* float: left; */
 }
 .intro-info .lead {
 	text-align: center;
-	/* padding-left: 13rem; */
 }
 
 .about-content {

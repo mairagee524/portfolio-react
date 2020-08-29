@@ -193,10 +193,10 @@ ul#nav li.current a { color: #FF0077; }
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
-#about {
+/* #about {
    background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   padding-top: 50px;
+   padding-bottom: 50px;
    overflow: hidden;
 }
 
@@ -204,9 +204,10 @@ ul#nav li.current a { color: #FF0077; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
-   margin-bottom: 12px;
+   font: 40px/30px 'opensans-bold', sans-serif;
+   color: #cc005f;
+   text-align: center;
+   margin-bottom: 50px;
 }
 #about p {
    line-height: 30px;
@@ -214,9 +215,11 @@ ul#nav li.current a { color: #FF0077; }
 }
 #about .profile-pic {
    position: relative;
-   width: 300px;
-   height: 335px;
-   /* border-radius: 100%; */
+   max-width: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 100%;
 }
 #about .contact-details { width: 51.66667%; }
 #about .download {
@@ -235,7 +238,114 @@ ul#nav li.current a { color: #FF0077; }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
+} */
+
+.section-intro {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 3.6rem;
+	position: relative;
 }
+.section-intro h1 {
+	font-family: "poppins-semibold", serif;
+	font-size: 3.6rem;
+	color: #313131;
+	line-height: 1.25;
+	margin-bottom: 1.2rem;
+}
+.section-intro h5 {
+	color: #FF0077;
+	font-size: 1.6rem;
+	line-height: 1.875;
+	margin-bottom: 0.3rem;
+	letter-spacing: .4rem;
+}
+
+#about {
+	background: #FFFFFF;
+	padding-top: 12rem;
+	padding-bottom: 15rem;
+}
+#about .section-intro {
+	margin-bottom: 3rem;
+}
+
+.intro-info {
+	margin-top: 4.2rem;
+	margin-right: -30px;
+	margin-left: -30px;
+}
+.intro-info img {
+	height: 20rem;
+	width: 20rem;
+	border-radius: 50%;
+	margin: .9rem 0 2rem 0;
+	/* float: left; */
+}
+.intro-info .lead {
+	text-align: center;
+	padding-left: 13rem;
+}
+
+.about-content {
+	position: relative;
+	text-align: left;
+	max-width: 850px;
+	margin-bottom: 3.6rem;
+}
+.about-content h3 {
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+}
+.about-content .info-list {
+	list-style: none;
+	margin-left: 0;
+}
+.about-content .info-list li {
+	padding: 0 0 1.5rem 0;
+	margin-bottom: .6rem;
+}
+.about-content .info-list li strong {
+	font-family: "poppins-bold", sans-serif;
+	color: #313131;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+.about-content .info-list li span {
+	display: block;
+	font-family: "poppins-regular", sans-serif;
+	color: #888888;
+	font-size: 1.5rem;
+	line-height: 1;
+}
+.about-content .skill-bars {
+	margin-top: 6rem;
+}
+
+.button-section {
+	text-align: center;
+}
+
+#buttons {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.button-section .button {
+   width: 250px;
+   background-color: #FF0077;
+}
+.button-section [class*="col-"] .button:first-child {
+	margin-right: 4rem;
+}
+
+
 
 
 /* ------------------------------------------------------------------ */

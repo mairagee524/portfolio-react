@@ -286,7 +286,7 @@ ul#nav li.current a { color: #FF0077; }
 }
 .intro-info .lead {
 	text-align: center;
-	padding-left: 13rem;
+	/* padding-left: 13rem; */
 }
 
 .about-content {
@@ -332,11 +332,6 @@ ul#nav li.current a { color: #FF0077; }
 	text-align: center;
 }
 
-#buttons {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-}
 .button-section .button {
    width: 250px;
    background-color: #FF0077;

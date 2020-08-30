@@ -27,7 +27,6 @@ let resumeData = {
   portfolio: [
     {
       key: "1",
-      secondKey: "aa",
       modal: "law",
       name: "Behlendor Law Offices",
       type: "Website",
@@ -35,12 +34,11 @@ let resumeData = {
       tech: "Materialize, JavaScript, jQuery, Twitter API, OpenLayer API",
       imgUrl: "images/portfolio/law-firm.png",
       alt: "Landing page of a law firm",
-      repoUrL: "https://github.com/zcorpuz/behlendorfLaw",
+      repoUrl: "https://github.com/zcorpuz/behlendorfLaw",
       liveUrl: "https://zcorpuz.github.io/behlendorfLaw/"
     },
     {
       key: "2",
-      secondKey: "bb",
       modal: "02",
       name: "Soma Kitchen",
       type: "Website",
@@ -53,7 +51,6 @@ let resumeData = {
     },
     {
       key: "3",
-      secondKey: "cc",
       modal: "03",
       name: "Weather Dashboard",
       type: "Practical App",
@@ -66,7 +63,6 @@ let resumeData = {
     },
     {
       key: "4",
-      secondKey: "dd",
       modal: "04",
       name: "Code Quiz",
       type: "Interactive Game",
@@ -79,7 +75,6 @@ let resumeData = {
     },
     {
       key: "5",
-      secondKey: "ee",
       modal: "05",
       name: "Burger Logger",
       type: "Tracker",
@@ -92,7 +87,6 @@ let resumeData = {
     },
     {
       key: "6",
-      secondKey: "ff",
       modal: "06",
       name: "Notes App",
       type: "Productivity App",

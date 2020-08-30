@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import Modal from "./Modal";
-
 
 export default class Porfolio extends Component {
   state = {
@@ -47,29 +45,24 @@ export default class Porfolio extends Component {
                         </a>
                       </div>	               
                     </div>
-                 
-                    {/* <Modal onClose={this.showModal} show={this.state.show}> */}
-
-                      <div id={item.modal} className="popup-modal slider mfp-hide">	
-                        <div className="media">
-                          <img src={`${item.imgUrl}`} alt={`${item.alt}`} />
-                        </div>      	
-                        <div className="description-box">
-                          <h4>{item.name} </h4>		      
-                          <p>{item.description}</p>
-                          <div className="categories">{item.type}</div>			               
-                        </div>
-                        <div className="link-box">
-                          <a href={`${item.repoUrl}`} >Github</a>
-                          <a href={`${item.liveUrl}`} >Live Preview</a>
-                          <button className="popup-modal-dismiss">Close</button>
-                        </div>		      
-                      </div> 
-                    {/* </Modal> */}
+                    <div id={item.modal} className="popup-modal slider mfp-hide">	
+                      <div className="media">
+                        <img src={`${item.imgUrl}`} alt={`${item.alt}`} />
+                      </div>      	
+                      <div className="description-box">
+                        <h4>{item.name} </h4>		      
+                        <p>{item.description}</p>
+                        <div className="categories">{item.type}</div>			               
+                      </div>
+                      <div className="link-box">
+                        <a href={`${item.repoUrl}`} >Github</a>
+                        <a href={`${item.liveUrl}`} >Live Preview</a>
+                        <button className="popup-modal-dismiss">Close</button>
+                      </div>		      
+                    </div> 
                   </div>
                 )
               })};
-
             </div>
           </div> 
         </div>  

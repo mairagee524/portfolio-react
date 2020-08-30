@@ -249,7 +249,6 @@ ul#nav li.current a { color: #FF0077; }
 	position: relative;
 }
 .section-intro h1 {
-	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
 	color: #313131;
 	line-height: 1.25;
@@ -294,7 +293,6 @@ ul#nav li.current a { color: #FF0077; }
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
-	font-family: "poppins-bold", sans-serif;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
@@ -308,7 +306,6 @@ ul#nav li.current a { color: #FF0077; }
 	margin-bottom: .6rem;
 }
 .about-content .info-list li strong {
-	font-family: "poppins-bold", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -317,7 +314,6 @@ ul#nav li.current a { color: #FF0077; }
 }
 .about-content .info-list li span {
 	display: block;
-	font-family: "poppins-regular", sans-serif;
 	color: #888888;
 	font-size: 1.5rem;
 	line-height: 1;
@@ -350,7 +346,7 @@ ul#nav li.current a { color: #FF0077; }
 
 /* 13. portfolio - (_layout.scss) */
  *
- * ------------------------------------------------------------------- 
+ * 
  */
 #portfolio {
 	background: #FFFFFF;
@@ -413,7 +409,6 @@ ul#nav li.current a { color: #FF0077; }
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
-	font-family: "poppins-regular", sans-serif;
 	font-size: 1.2rem;
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.6);
@@ -471,19 +466,16 @@ ul#nav li.current a { color: #FF0077; }
 	padding: 1.8rem 3.6rem 3rem;
 }
 .popup-modal .description-box h4 {
-	font-family: "poppins-bold", sans-serif;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 	margin-bottom: .6rem;
 }
 .popup-modal .description-box p {
-	font-family: "poppins-regular", sans-serif;
 	font-size: 1.4rem;
 	line-height: 2.4rem;
 	margin-bottom: 12px;
 }
 .popup-modal .categories {
-	font-family: "poppins-bold", sans-serif;
 	font-size: 1.1rem;
 	line-height: 1.8rem;
 	text-transform: uppercase;
@@ -498,7 +490,6 @@ ul#nav li.current a { color: #FF0077; }
 	background: #000000;
 }
 .popup-modal .link-box a {
-	font-family: "poppins-bold", sans-serif;
 	font-size: 1.2rem;
 	line-height: 6rem;
 	color: #FFFFFF;

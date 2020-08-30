@@ -26,7 +26,7 @@ export default class AboutMe extends Component {
             <div className="row button-section">
                 <div className="col-twelve">
                     <a href="#contact" title="Hire Me" className="button stroke smoothscroll">Contact Me</a>
-                    <a href="#" title="Download CV" className="button button-primary">Resume</a>
+                    <a href="https://drive.google.com/file/d/1g3npUVrn8G-EkdEDuQh84nN4Bw9_8ekr/view?usp=sharing" title="Download CV" className="button button-primary">Resume</a>
                 </div>   		
             </div>
 

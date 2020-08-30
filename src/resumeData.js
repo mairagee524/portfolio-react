@@ -34,6 +34,7 @@ let resumeData = {
       description: `A local law firm seeks to increase online presence`,
       tech: "Materialize, JavaScript, jQuery, Twitter API, OpenLayer API",
       imgUrl: "images/portfolio/law-firm.png",
+      alt: "Landing page of a law firm",
       repoUrL: "https://github.com/zcorpuz/behlendorfLaw",
       liveUrl: "https://zcorpuz.github.io/behlendorfLaw/"
     },
@@ -46,6 +47,7 @@ let resumeData = {
       description: "A local restaurant in Downtown Los Angeles requested a new modern look for the site",
       tech: "JavaScript, jQuery, Restful API, Node.js, Express.js, MySQL",
       imgUrl: "images/portfolio/soma-kitchen.png",
+      alt: "Landing page of a restaurant",
       repoUrl: "https://github.com/zcorpuz/soma_kitchen",
       liveUrl: "https://protected-everglades-09109.herokuapp.com/"
     },
@@ -58,6 +60,7 @@ let resumeData = {
       description: "Enter a city and look at the forecast for the next 5 days",
       tech: "JavaScript, jQuery, Web API (OpenWeatherMap), AJAX",
       imgUrl: "images/portfolio/weather-dashboard.png",
+      alt: "Website of a weather dashboard",
       repoUrl: "https://github.com/mairagee524/weather-dashboard",
       liveUrl: "https://mairagee524.github.io/weather-dashboard/"
     },
@@ -70,6 +73,7 @@ let resumeData = {
       description: "Take a quiz about random subjects in under 60 sesconds. Then, save your score to a leaderboard",
       tech: "JavaScript, jQuery, Bootstrap",
       imgUrl: "images/portfolio/code-quiz.png",
+      alt: "Colorful page with a 'start' button to start the quiz",
       repoUrl: "https://github.com/mairagee524/code-quiz",
       liveUrl: "https://mairagee524.github.io/code-quiz/"
     },
@@ -82,6 +86,7 @@ let resumeData = {
       description: "Keep track of all the burgers you can eat!",
       tech: "JavaScript, jQuery, Node.js, Express.js, MySQL",
       imgUrl: "images/portfolio/burger-logger.png",
+      alt: "Tacker-style site with columns to track what burgers you want to eat",
       repoUrl: "https://github.com/mairagee524/handlebars-burger-logger",
       liveUrl: "https://handlebars-burger-logger-2020.herokuapp.com/"
     },
@@ -92,8 +97,9 @@ let resumeData = {
       name: "Notes App",
       type: "Productivity App",
       description: "Take notes from your computer",
-      imgurl: "images/portfolio/note-app.png",
       tech: "JavaScript, jQuery, Node.js, Express.js, MySQL",
+      imgUrl: "images/portfolio/note-app.png",
+      alt: "Landing page with button to make a new note page",
       repoUrl: "https://github.com/mairagee524/express-note-taker",
       liveUrl: "https://dry-forest-18781.herokuapp.com/"
     }

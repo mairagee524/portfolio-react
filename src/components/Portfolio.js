@@ -7,16 +7,15 @@ export default class Porfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h5>Portfolio</h5>
-            <h1>Check Out Some of My Works.</h1>
-            <p className="lead">The first two are from real-time clients and the rest are mini-projects</p>
+            <h2>Portfolio</h2>
+            <p className="lead">The first two are from real-time clients and the rest are mini-projects.</p>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               {resumeData.portfolio.map((item)=>{
                 return(
-                  <div key={item.key} className=" portfolio-item" style={{ width: "45%", display:"inline-block", margin: 15}}>
+                  <div key={item.key} className=" portfolio-item" style={{ width: "100%", display:"inline-block", margin: 15}}>
                     <div className="item-wrap">
                       <a target="_blank" rel="noopener noreferrer" href={`${item.url}`}>
-                        <img src={`${item.imgurl}`} className="item-img" alt="" style={{height: 330, width: "100%"}}/>
+                        <img src={`${item.imgurl}`} className="item-img" alt="" style={{width: "100%"}}/>
                         
                         <div className="overlay">
                           <div className="portfolio-item-meta">

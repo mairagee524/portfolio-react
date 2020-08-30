@@ -5,35 +5,72 @@ export default class Porfolio extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
-        <div className="row">
-          <div className="twelve columns collapsed">
-            <h2>Portfolio</h2>
+        <div className="row section-intro">
+          <div className="col-twelve">
+            <h5>Portfolio</h5>
             <h1>Check Out Some of My Works.</h1>
             <p className="lead">The first two are from real-time clients and the rest are mini-projects.</p>
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              {resumeData.portfolio.map((item)=>{
-                return(
-                  <div key={item.key} className=" portfolio-item" style={{ width: "100%", display:"inline-block", margin: 15}}>
-                    <div className="item-wrap">
-                      <a target="_blank" rel="noopener noreferrer" href={`${item.url}`}>
-                        <img src={`${item.imgurl}`} className="item-img" alt="" style={{width: "100%"}}/>
-                        
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>{item.name}</h5>
-                            <p>{item.description}</p>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <hr/>
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
-    );
+          </div>   		
+        </div> 
+        <div className="row portfolio-content">
+          <div className="col-twelve">
+          <div id="folio-wrapper" className="block-1-2 block-mob-full stack">
+
+            {resumeData.portfolio.map(item => {
+              return(
+                <div key={item.key} className="bgrid folio-item">
+                  <div className="item-wrap">
+                    <img src={`${item.imgUrl}`} alt=""/>
+                    <a href={`#${item.modal}`} className="overlay">
+                      <div className="folio-item-table">
+                        <div className="folio-item-cell">
+                          <h3 className="folio-title">{item.name}</h3>	     					    
+                          <span className="folio-types">
+                            {item.type}
+                          </span>
+                        </div>	                      	
+                      </div>                    
+                    </a>
+                  </div>	               
+                </div>	                  	           
+                
+                
+              );
+            })};
+
+
+
+
+{resumeData.portfolio.map(item => {
+              return(
+
+<div key={item.key} id={`${item.modal}`} className="popup-modal slider mfp-hide">	
+
+<div className="media">
+  <img src={`${item.imgUrl}`} />
+</div>      	
+
+<div className="description-box">
+  <h4>{item.name}</h4>		      
+  <p>{item.description}</p>
+
+  <div className="categories">{item.type}</div>			               
+</div>
+
+<div className="link-box">
+  <a href={`${item.repoUrl}`} >Github</a>
+  <a href={`${item.liveUrl}`} >Live Preview</a>
+  <a href="#" className="popup-modal-dismiss">Close</a>
+</div>		      
+</div> 
+   );
+  })};
+
+
+</div>
+          </div> 
+        </div>  
+      </section> 
+    ) 
   }
 }

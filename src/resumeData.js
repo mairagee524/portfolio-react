@@ -27,9 +27,11 @@ let resumeData = {
   portfolio: [
     {
       key: "1",
+      secondKey: "aa",
+      modal: "law",
       name: "Behlendor Law Offices",
-      description: `
-      A local law firm seeks to increase online presence`,
+      type: "Website",
+      description: `A local law firm seeks to increase online presence`,
       tech: "Materialize, JavaScript, jQuery, Twitter API, OpenLayer API",
       imgUrl: "images/portfolio/law-firm.png",
       repoUrL: "https://github.com/zcorpuz/behlendorfLaw",
@@ -37,7 +39,10 @@ let resumeData = {
     },
     {
       key: "2",
+      secondKey: "bb",
+      modal: "02",
       name: "Soma Kitchen",
+      type: "Website",
       description: "A local restaurant in Downtown Los Angeles requested a new modern look for the site",
       tech: "JavaScript, jQuery, Restful API, Node.js, Express.js, MySQL",
       imgUrl: "images/portfolio/soma-kitchen.png",
@@ -46,7 +51,10 @@ let resumeData = {
     },
     {
       key: "3",
+      secondKey: "cc",
+      modal: "03",
       name: "Weather Dashboard",
+      type: "Practical App",
       description: "Enter a city and look at the forecast for the next 5 days",
       tech: "JavaScript, jQuery, Web API (OpenWeatherMap), AJAX",
       imgUrl: "images/portfolio/weather-dashboard.png",
@@ -55,7 +63,10 @@ let resumeData = {
     },
     {
       key: "4",
+      secondKey: "dd",
+      modal: "04",
       name: "Code Quiz",
+      type: "Interactive Game",
       description: "Take a quiz about random subjects in under 60 sesconds. Then, save your score to a leaderboard",
       tech: "JavaScript, jQuery, Bootstrap",
       imgUrl: "images/portfolio/code-quiz.png",
@@ -64,7 +75,10 @@ let resumeData = {
     },
     {
       key: "5",
+      secondKey: "ee",
+      modal: "05",
       name: "Burger Logger",
+      type: "Tracker",
       description: "Keep track of all the burgers you can eat!",
       tech: "JavaScript, jQuery, Node.js, Express.js, MySQL",
       imgUrl: "images/portfolio/burger-logger.png",
@@ -73,7 +87,10 @@ let resumeData = {
     },
     {
       key: "6",
+      secondKey: "ff",
+      modal: "06",
       name: "Notes App",
+      type: "Productivity App",
       description: "Take notes from your computer",
       imgurl: "images/portfolio/note-app.png",
       tech: "JavaScript, jQuery, Node.js, Express.js, MySQL",

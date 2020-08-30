@@ -29,16 +29,56 @@ let resumeData = {
       key: "1",
       name: "Behlendor Law Offices",
       description: `
-      local law firm seeks to increase online presence - `,
-      imgurl: "images/portfolio/law-firm.png",
-      url: "https://zcorpuz.github.io/behlendorfLaw/"
+      A local law firm seeks to increase online presence`,
+      tech: "Materialize, JavaScript, jQuery, Twitter API, OpenLayer API",
+      imgUrl: "images/portfolio/law-firm.png",
+      repoUrL: "https://github.com/zcorpuz/behlendorfLaw",
+      liveUrl: "https://zcorpuz.github.io/behlendorfLaw/"
     },
     {
       key: "2",
       name: "Soma Kitchen",
-      description: "A local restaurant in Downtown Los Angeles requested a new modern look for the site., JavaScript, jQuery, Restful API, Node.js, Express.js, MySQL ",
-      imgurl: "images/portfolio/soma-kitchen.png",
-      url: "https://protected-everglades-09109.herokuapp.com/"
+      description: "A local restaurant in Downtown Los Angeles requested a new modern look for the site",
+      tech: "JavaScript, jQuery, Restful API, Node.js, Express.js, MySQL",
+      imgUrl: "images/portfolio/soma-kitchen.png",
+      repoUrl: "https://github.com/zcorpuz/soma_kitchen",
+      liveUrl: "https://protected-everglades-09109.herokuapp.com/"
+    },
+    {
+      key: "3",
+      name: "Weather Dashboard",
+      description: "Enter a city and look at the forecast for the next 5 days",
+      tech: "JavaScript, jQuery, Web API (OpenWeatherMap), AJAX",
+      imgUrl: "images/portfolio/weather-dashboard.png",
+      repoUrl: "https://github.com/mairagee524/weather-dashboard",
+      liveUrl: "https://mairagee524.github.io/weather-dashboard/"
+    },
+    {
+      key: "4",
+      name: "Code Quiz",
+      description: "Take a quiz about random subjects in under 60 sesconds. Then, save your score to a leaderboard",
+      tech: "JavaScript, jQuery, Bootstrap",
+      imgUrl: "images/portfolio/code-quiz.png",
+      repoUrl: "https://github.com/mairagee524/code-quiz",
+      liveUrl: "https://mairagee524.github.io/code-quiz/"
+    },
+    {
+      key: "5",
+      name: "Burger Logger",
+      description: "Keep track of all the burgers you can eat!",
+      tech: "JavaScript, jQuery, Node.js, Express.js, MySQL",
+      imgUrl: "images/portfolio/burger-logger.png",
+      repoUrl: "https://github.com/mairagee524/handlebars-burger-logger",
+      liveUrl: "https://handlebars-burger-logger-2020.herokuapp.com/"
+    },
+    {
+      key: "6",
+      name: "Notes App",
+      description: "Take notes from your computer",
+      imgurl: "images/portfolio/note-app.png",
+      tech: "JavaScript, jQuery, Node.js, Express.js, MySQL",
+      repoUrl: "https://github.com/mairagee524/express-note-taker",
+      liveUrl: "https://dry-forest-18781.herokuapp.com/"
     }
   ],
   testimonials: [

@@ -8,6 +8,7 @@ export default class Porfolio extends Component {
         <div className="row">
           <div className="twelve columns collapsed">
             <h2>Portfolio</h2>
+            <h1>Check Out Some of My Works.</h1>
             <p className="lead">The first two are from real-time clients and the rest are mini-projects.</p>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               {resumeData.portfolio.map((item)=>{

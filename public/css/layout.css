@@ -357,6 +357,12 @@ ul#nav li.current a { color: #FF0077; }
    color: #95A3A3;
 }
 
+#portfolio h1 {
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+}
+
 .lead {
    text-align: center;
 }

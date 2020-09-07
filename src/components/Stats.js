@@ -1,21 +1,114 @@
 import React, { Component } from "react";
 
-export default class ContactUs extends Component {
-  render() {
-    // let resumeData = this.props.resumeData;
-    return (
-      <section id="contact">
-        <div className="row section-head">
-          <div className="ten columns">
-            <p className="lead">
-              Feel free to contact me for any work or collaborations below
-            </p>
-          </div>
-        </div>
-        <div className="row button-section">
-            <a href="mailto:mairagarcia.codes@gmail.com" title="Contact Me" className="button stroke">Contact Me</a>
-        </div>
-      </section>
-    );
-  }
+export default class Stats extends Component {
+    render() {
+        // let resumeData = this.props.resumeData;
+        return (
+            <section id="stats" class="count-up">
+
+                <div class="row">
+                    <div class="col-twelve">
+
+                        <div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+                            <div class="bgrid stat">
+
+                                <div class="icon-part">
+                                    <i class="icon-pencil-ruler"></i>
+                                </div>
+
+                                <h3 class="stat-count">
+                                    1500
+                                </h3>
+
+                                <h5 class="stat-title">
+                                    Projects Completed
+                                </h5>
+
+                            </div> 				
+
+                            <div class="bgrid stat">
+
+                                <div class="icon-part">
+                                    <i class="icon-users"></i>
+                                </div>
+
+                                <h3 class="stat-count">
+                                    900
+                                </h3>
+
+                                <h5 class="stat-title">
+                                    Happy Clients
+                                </h5>
+
+                            </div>
+
+                            <div class="bgrid stat">
+
+                                <div class="icon-part">
+                                    <i class="icon-badge"></i>
+                                </div>
+
+                                <h3 class="stat-count">
+                                    200
+                                </h3>
+
+                                <h5 class="stat-title">
+                                    Awards Received
+                                </h5>
+
+                            </div>								
+
+                            <div class="bgrid stat">
+
+                                <div class="icon-part">
+                                    <i class="icon-light-bulb"></i>
+                                </div>
+
+                                <h3 class="stat-count">
+                                    120
+                                </h3>
+
+                                <h5 class="stat-title">
+                                    Crazy Ideas
+                                </h5>
+
+                            </div> 
+
+                            <div class="bgrid stat">
+
+                                <div class="icon-part">
+                                    <i class="icon-cup"></i>
+                                </div>
+
+                                <h3 class="stat-count">
+                                    1500
+                                </h3>
+
+                                <h5 class="stat-title">
+                                    Coffee Cups
+                                </h5>
+
+                            </div> 
+
+                            <div class="bgrid stat">
+
+                                <div class="icon-part">
+                                    <i class="icon-clock"></i>
+                                </div>
+
+                                <h3 class="stat-count">
+                                    7200
+                                </h3>
+
+                                <h5 class="stat-title">
+                                    Hours
+                                </h5>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            </section> 
+        )
+    }
 }

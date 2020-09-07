@@ -126,7 +126,7 @@
     var statSection = $("#stats"),
     stats = $(".stat-count");
 
-statSection.waypoint({
+   statSection.waypoint({
 
    handler: function(direction) {
 

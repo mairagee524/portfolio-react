@@ -5,13 +5,17 @@ export default class ContactUs extends Component {
     // let resumeData = this.props.resumeData;
     return (
       <section id="contact">
-        <div className="row section-head">
-          <div className="ten columns">
-            <p className="lead">
-              Feel free to contact me for any work or collaborations below
-            </p>
-          </div>
-        </div>
+
+        <div className="row section-intro">
+          <div className="col-twelve">
+
+            <h5>Contact</h5>
+            <h1>I'd Love To Hear From You.</h1>
+
+            <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+          </div> 
+        </div> 
         <div className="row button-section">
             <a href="mailto:mairagarcia.codes@gmail.com" title="Contact Me" className="button stroke">Contact Me</a>
         </div>
@@ -19,3 +23,5 @@ export default class ContactUs extends Component {
     );
   }
 }
+
+

@@ -106,7 +106,7 @@ let resumeData = {
     },
     {
       key: "2",
-      description: "Maira was able to guide us through each step of the way and asking us about our preferences in all areas of the site. She communicated at a really high level utilizing zoom meetings and regular phone calls to ensure that we were satisfied with any changes and improvements that were made. Overall, we thought that she was skilled enough to give her full permission to build the site with little to zero supervision",
+      description: "Maira was able to update us and ask us about our preferences in all areas of the site. She communicated at a really high level utilizing zoom meetings and regular phone calls to ensure that we were satisfied with any changes and improvements that were made. Overall, we believe she is skilled enough for us to give her full permission to build the site with little to zero supervision.",
       name: "JM, Chef at Soma Kitchem",
     },
   ],

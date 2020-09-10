@@ -4,6 +4,9 @@ export default class ContactUs extends Component {
   render() {
     // let resumeData = this.props.resumeData;
     return (
+
+
+
       <section id="contact">
 
         <div className="row section-intro">
@@ -19,7 +22,7 @@ export default class ContactUs extends Component {
         <div className="row button-section">
             <a href="mailto:mairagarcia.codes@gmail.com" title="Contact Me" className="button stroke">Contact Me</a>
         </div>
-      </section>
+      </section> 
     );
   }
 }

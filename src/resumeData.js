@@ -1,5 +1,7 @@
 let resumeData = {
   name: "Maira Garcia",
+  logo: "images/mg-logo.png",
+
   roleOne: "FULL STACK SOFTWARE ENGINEER",
   roleTwo: "BILINGUAL",
   socialLinks: [

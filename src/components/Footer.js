@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 export default class Footer extends Component {
   render() {
-    // let resumeData = this.props.resumeData;
+    let resumeData = this.props.resumeData;
     return (
       <footer>
           <div className="row">
               <div className="col-full">
 
                   <div className="footer-logo">
-                      <a className="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"/></a>
+                      <a className="footer-site-logo" href="#0"><img src={resumeData.logo} alt="Homepage"/></a>
                   </div>
 
                   <ul className="footer-social">

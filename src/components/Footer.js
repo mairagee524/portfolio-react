@@ -1,25 +1,52 @@
 import React, { Component } from 'react';
+
 export default class Footer extends Component {
+    
     render() {
+        let resumeData = this.props.resumeData;
+
         return (
         <footer>
             <div className="row">
                 <div className="col-full">
-                    <h3>Let's connect!</h3>
+
+                    <ul className="footer-social">
+                            
+                        {resumeData.socialLinks.map((item) => {
+                        return (
+                            <li key={item.name}>
+                            <a href={item.url} target="_blank" rel="noopener noreferrer">
+                                <i className={item.className} />
+                                
+                            </a>
+                            </li>
+                        );
+                        })}
+                            
+                    </ul>
+
 
                     <ul className="footer-social">
                         
                         <li><a href="#0">
                             <i className="im im-twitter" aria-hidden="true"></i>
-                            <span>Twitter</span>
+                            <span>Home</span>
                         </a></li>
                         <li><a href="#0">
                             <i className="im im-instagram" aria-hidden="true"></i>
-                            <span>Github</span>
+                            <span>About</span>
                         </a></li>
                         <li><a href="#0">
                             <i className="im im-behance" aria-hidden="true"></i>
-                            <span>LinkedIn</span>
+                            <span>Portfolio</span>
+                        </a></li>
+                        <li><a href="#0">
+                            <i className="im im-behance" aria-hidden="true"></i>
+                            <span>Testimonials</span>
+                        </a></li>
+                        <li><a href="#0">
+                            <i className="im im-behance" aria-hidden="true"></i>
+                            <span>Contact</span>
                         </a></li>
                         
                     </ul>
@@ -31,7 +58,7 @@ export default class Footer extends Component {
 
                 <div className="col-twelve">
                     <div className="copyright">
-                        <span>© Copyright Hola 2017</span> 
+                        <span>© Copyright Hola 2017 || Ceevee 2014</span> 
                         <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
                     </div>
 

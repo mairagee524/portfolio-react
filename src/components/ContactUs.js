@@ -15,7 +15,7 @@ export default class ContactUs extends Component {
             <h5>Contact</h5>
             <h1>I'd Love To Hear From You.</h1>
 
-            <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+            <p className="lead">If you are interested in working together or if you have any questions about my work, feel free to email me below.</p>
 
           </div> 
         </div> 

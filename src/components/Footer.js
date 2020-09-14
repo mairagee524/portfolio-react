@@ -9,25 +9,21 @@ export default class Footer extends Component {
         <footer>
             <div className="row">
                 <div className="col-full">
-
                     <ul className="footer-social">
-                            
                         {resumeData.socialLinks.map((item) => {
                         return (
                             <li key={item.name}>
-                            <a href={item.url} target="_blank" rel="noopener noreferrer">
-                                <i className={item.className} />
-                                
-                            </a>
+                                <a href={item.url} target="_blank" rel="noopener noreferrer">
+                                    <i className={item.className} />
+                                    
+                                </a>
                             </li>
                         );
                         })}
                             
                     </ul>
 
-
                     <ul className="footer-social">
-                        
                         <li><a href="#0">
                             <i className="im im-twitter" aria-hidden="true"></i>
                             <span>Home</span>
@@ -48,9 +44,7 @@ export default class Footer extends Component {
                             <i className="im im-behance" aria-hidden="true"></i>
                             <span>Contact</span>
                         </a></li>
-                        
                     </ul>
-                        
                 </div>
             </div>
 

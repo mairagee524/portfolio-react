@@ -20,7 +20,6 @@ export default class Footer extends Component {
                             </li>
                         );
                         })}
-                            
                     </ul>
 
                     <ul className="footer-social">

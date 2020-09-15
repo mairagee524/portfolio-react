@@ -1098,11 +1098,11 @@ ul#nav li.current a { color: #FF0077; }
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
-   color: #303030;
+   /* padding-top: 48px; */
+   margin-bottom: 10px;
+   /* color: #303030;
    font-size: 14px;
-   text-align: center;
+   text-align: center; */
    position: relative;
 }
 
@@ -1185,7 +1185,7 @@ footer {
 footer {
    font-family: "montserrat-regular", sans-serif;
    font-size: 14px;
-   padding: 6.6rem 0 4.2rem;
+   padding: 4.6rem 0 4.2rem;
    text-align: center;
    color: rgba(255, 255, 255, 0.2);
 }
@@ -1260,7 +1260,6 @@ footer a:hover, footer a:focus {
 }
 
 .footer-bottom {
-   margin-top: 7.2rem;
    text-align: center;
 }
 

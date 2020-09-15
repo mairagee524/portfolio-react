@@ -961,8 +961,7 @@ ul#nav li.current a { color: #FF0077; }
 
 #contact {
 	background: #151515;
-	padding-top: 12rem;
-	padding-bottom: 7.2rem;
+	padding: 7.2rem;
 }
 #contact .section-intro h1 {
 	color: white;
@@ -1099,7 +1098,7 @@ ul#nav li.current a { color: #FF0077; }
 
 footer {
    /* padding-top: 48px; */
-   margin-bottom: 10px;
+   /* margin-bottom: 10px; */
    /* color: #303030;
    font-size: 14px;
    text-align: center; */
@@ -1212,7 +1211,7 @@ footer a:hover, footer a:focus {
    margin-top: 3rem;
    margin-left: 0;
    font-family: "montserrat-regular", sans-serif;
-   font-size: 1.3rem;
+   font-size: 1.5rem;
    text-transform: uppercase;
    letter-spacing: .3rem;
 }

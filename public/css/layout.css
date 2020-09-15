@@ -330,17 +330,19 @@ ul#nav li.current a { color: #FF0077; }
    width: 250px;
    background-color: #FF0077;
 }
-.button-section [class*="col-"] .button:first-child {
-	margin-right: 4rem;
+
+
+@media screen and (min-width: 750px) {
+
+   .button-section [class*="col-"] .button:first-child {
+	   margin-right: 4rem;
+   }
 }
 
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
-
-
-
 
 
 

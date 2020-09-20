@@ -16,11 +16,8 @@ export default class Porfolio extends Component {
     return (
       <section id="portfolio">
         <div className="row section-intro">
-          <div className="col-twelve">
-            <h5>Portfolio</h5>
-            <h1>Check Out Some of My Works.</h1>
-            <p className="lead">The first two are from real-time clients and the rest are mini-projects.</p>
-          </div>   		
+          <h5>Portfolio</h5>
+          <h1>Check Out Some of My Works.</h1>
         </div> 
         <div className="row portfolio-content">
           <div className="col-twelve">

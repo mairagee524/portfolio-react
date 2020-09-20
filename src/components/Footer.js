@@ -49,7 +49,7 @@ export default class Footer extends Component {
 
             <div className="row footer-bottom">
 
-                <div className="col-twelve">
+                
                     <div className="copyright">
                         <span>© Copyright Hola 2017 || Ceevee 2014</span> 
                         <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
@@ -58,7 +58,6 @@ export default class Footer extends Component {
                     <div className="go-top">
                     <a className="smoothscroll" title="Back to Top" href="#top"><i className="im im-arrow-up" aria-hidden="true"></i></a>
                     </div>
-                </div>
 
             </div>
             <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>

@@ -364,7 +364,7 @@ ul#nav li.current a { color: #FF0077; }
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 360px;
 	height: 100%;
 	background: transparent;
 	-moz-transition: all 0.5s ease-in-out;

@@ -347,6 +347,15 @@ ul#nav li.current a { color: #FF0077; }
 	padding-top: 7rem;
 	padding-bottom: 5rem;
 }
+
+.port-col {
+   display: grid;
+   /* width: 1200px; */
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   column-gap: 2rem;
+}
+
 #portfolio .folio-item {
 	padding: 0;
 	position: relative;

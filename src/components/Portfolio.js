@@ -20,7 +20,7 @@ export default class Porfolio extends Component {
           <h1>Check Out Some of My Works</h1>
         </div> 
         <div className="row">
-          <div id="folio-wrapper" className="block-1-2 block-mob-full stack">
+          <div id="portfolio-wrapper" className="block-1-2 block-mob-full stack port-col">
             {resumeData.portfolio.map(item => {
               return(
                 <div key={item.key}>

@@ -25,8 +25,8 @@ export default class Porfolio extends Component {
             {resumeData.portfolio.map(item => {
               return(
                 <div key={item.key}>
-                  <div className="bgrid folio-item">
-                    <div className="item-wrap">
+                  <div className="folio-item item-wrap">
+                    {/* <div className="item-wrap"> */}
                       <img src={`${item.imgUrl}`} alt={`${item.alt}`}/>
                       <a href={`#${item.modal}`} className="overlay">
                         <div className="folio-item-table">
@@ -39,7 +39,7 @@ export default class Porfolio extends Component {
                           </div>	                      	
                         </div>                    
                       </a>
-                    </div>	               
+                    {/* </div>	                */}
                   </div>
 
                   <div id={item.modal} className="popup-modal slider mfp-hide">	

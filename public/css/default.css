@@ -318,13 +318,15 @@ li p { } */
 
 .item-wrap {
 	display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    /* grid-template-columns: repeat(auto-fit,minmax(500px,1fr)); */
+    grid-template-columns: repeat(2,1fr);
+
 }
 
 
 
 
-
+/* 
 
 .bgrid {
 	padding: 0 20px;
@@ -374,24 +376,24 @@ li p { } */
 
 .block-1-2 .bgrid {
 	width: 50%;
-}
+} */
 
 /**
  * Clearing for block grid columns. Allow columns with 
  * different heights to align properly.
  */
-.block-1-6 .bgrid:nth-child(6n+1),
+/* .block-1-6 .bgrid:nth-child(6n+1),
 .block-1-4 .bgrid:nth-child(4n+1),
 .block-1-3 .bgrid:nth-child(3n+1),
 .block-1-2 .bgrid:nth-child(2n+1) {
 	clear: both;
-}
+} */
 
 /**
  * small screens - (_grid.scss)
  * --------------------------------------------------------------- 
  */
-@media screen and (max-width:1024px) {
+/* @media screen and (max-width:1024px) {
 	.block-s-1-6 .bgrid {
 		width: 16.66667%;
 	}
@@ -424,13 +426,13 @@ li p { } */
 		clear: both;
 	}
 
-}
+} */
 
 /**
  * tablets - (_grid.scss)
  * --------------------------------------------------------------- 
  */
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
 	.block-tab-1-6 .bgrid {
 		width: 16.66667%;
 	}
@@ -463,13 +465,13 @@ li p { } */
 		clear: both;
 	}
 
-}
+} */
 
 /**
  * large mobile devices - (_grid.scss)
  * --------------------------------------------------------------- 
  */
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
 	.block-mob-1-6 .bgrid {
 		width: 16.66667%;
 	}
@@ -484,14 +486,14 @@ li p { } */
 
 	.block-mob-1-2 .bgrid {
 		width: 50%;
-	}
+	} */
 
 	/* .block-mob-full .bgrid {
 		width: 100%;
 		clear: both;
 	} */
 
-	[class*="block-mob-"] .bgrid:nth-child(n) {
+	/* [class*="block-mob-"] .bgrid:nth-child(n) {
 		clear: none;
 	}
 
@@ -502,7 +504,7 @@ li p { } */
 		clear: both;
 	}
 
-}
+} */
 
 /**
  * stack on small mobile devices - (_grid.scss)
@@ -522,12 +524,12 @@ li p { } */
  * Clearing for block grid columns. Allow columns with 
  * different heights to align properly.
  */
-.block-1-6 .bgrid:nth-child(6n+1),
+/* .block-1-6 .bgrid:nth-child(6n+1),
 .block-1-4 .bgrid:nth-child(4n+1),
 .block-1-3 .bgrid:nth-child(3n+1),
 .block-1-2 .bgrid:nth-child(2n+1) {
 	clear: both;
-}
+} */
 
 
 /* definition list */
@@ -857,12 +859,12 @@ input[type="checkbox"] { display: inline; }
 
 /* block grids
 --------------------------------------------------------------------- */
-.bgrid-sixths [class*="column"]   { width: 16.66667%; }
+/* .bgrid-sixths [class*="column"]   { width: 16.66667%; }
 .bgrid-quarters [class*="column"] { width: 25%; }
 .bgrid-thirds [class*="column"]   { width: 33.33333%; }
-.bgrid-halves [class*="column"]   { width: 50%; }
+.bgrid-halves [class*="column"]   { width: 50%; } */
 
-[class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; }
+/* [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; } */
 
 /* Left clearing for block grid columns - columns that changes width in
 different screen sizes. Allows columns with different heights to align
@@ -873,19 +875,19 @@ properly.
 
 /* smaller screens
 --------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) { */
 
    /* block grids on small screens */
-   .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
+   /* .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
    .s-bgrid-quarters [class*="column"] { width: 25%; }
    .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
-   .s-bgrid-halves [class*="column"]   { width: 50%; }
+   .s-bgrid-halves [class*="column"]   { width: 50%; } */
 
    /* block grids left clearing */
-   .first { clear: none; }
-   .s-first { clear: left; }
-
-}
+   /* .first { clear: none; }
+   .s-first { clear: left; } */
+/* 
+} */
 
 /* mobile wide/smaller tablets
 --------------------------------------------------------------- */
@@ -906,7 +908,7 @@ properly.
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 
    [class*="column"] + [class*="column"]:last-child { float: none; }
-   [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
+   /* [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; } */
 
    /* Offsets */
    .row .offset-1    { margin-left: 0%; }

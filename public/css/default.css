@@ -486,10 +486,10 @@ li p { } */
 		width: 50%;
 	}
 
-	.block-mob-full .bgrid {
+	/* .block-mob-full .bgrid {
 		width: 100%;
 		clear: both;
-	}
+	} */
 
 	[class*="block-mob-"] .bgrid:nth-child(n) {
 		clear: none;
@@ -508,7 +508,7 @@ li p { } */
  * stack on small mobile devices - (_grid.scss)
  * --------------------------------------------------------------- 
  */
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
 	.stack .bgrid {
 		width: 100% !important;
 		float: none !important;
@@ -517,7 +517,7 @@ li p { } */
 		margin-right: 0;
 	}
 
-}
+} */
 /**
  * Clearing for block grid columns. Allow columns with 
  * different heights to align properly.

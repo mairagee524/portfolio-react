@@ -20,7 +20,8 @@ export default class Porfolio extends Component {
           <h1>Check Out Some of My Works</h1>
         </div> 
         <div className="row">
-          <div id="portfolio-wrapper" className="block-1-2 block-mob-full stack port-col">
+          <div id="portfolio-wrapper" className="block-1-2 port-col">
+
             {resumeData.portfolio.map(item => {
               return(
                 <div key={item.key}>
@@ -40,6 +41,7 @@ export default class Porfolio extends Component {
                       </a>
                     </div>	               
                   </div>
+
                   <div id={item.modal} className="popup-modal slider mfp-hide">	
                     <div className="media">
                       <img src={`${item.imgUrl}`} alt={`${item.alt}`} />

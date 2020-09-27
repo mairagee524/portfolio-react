@@ -19,7 +19,7 @@ export default class Porfolio extends Component {
           <h5>Portfolio</h5>
           <h1>Check Out Some of My Works</h1>
         </div> 
-        <div className="row container bd-grid">
+        <div className="row portfolio-content">
           <div id="portfolio-wrapper" className="port-col">
 
             {resumeData.portfolio.map(item => {
@@ -105,14 +105,13 @@ export default class Porfolio extends Component {
 
           <div class="row portfolio-content">
 
-          <div class="col-twelve">
+            <div class="col-twelve">
 
-            <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-
-              <div class="bgrid folio-item">
-                <div class="item-wrap">
-                  <img src="images/portfolio/liberty.jpg" alt="Liberty"/>
-                  <a href="#modal-01" class="overlay">
+              <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+                <div class="bgrid folio-item">
+                  <div class="item-wrap">
+                    <img src="images/portfolio/liberty.jpg" alt="Liberty"/>
+                      <a href="#modal-01" class="overlay">
                     <div class="folio-item-table">
                       <div class="folio-item-cell">
                         <h3 class="folio-title">Liberty</h3>	     					    
@@ -124,6 +123,7 @@ export default class Porfolio extends Component {
                   </a>
                 </div>	               
               </div> 
+
 
               <div id="modal-01" class="popup-modal slider mfp-hide">	
                 <div class="media">
@@ -141,6 +141,7 @@ export default class Porfolio extends Component {
                   </div>		      
                 </div>
               </div> 
+              
             </div>
           </div> 
         </section>

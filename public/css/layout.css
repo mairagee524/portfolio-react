@@ -355,12 +355,13 @@ ul#nav li.current a { color: #FF0077; }
    grid-template-rows: repeat(2, 1fr);
    column-gap: 2rem;
 }
-
+/* 
 #portfolio .folio-item {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
-}
+} */
+
 #portfolio .folio-item img {
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
@@ -428,11 +429,7 @@ ul#nav li.current a { color: #FF0077; }
 	transform: scale(1.05);
 }
 
-/**
- * responsive:
- * portfolio
- * ------------------------------------------------------------------- 
- */
+/* responsive portfolio */
 @media only screen and (max-width:1024px) {
 	#portfolio .folio-title {
 		font-size: 3.1rem;

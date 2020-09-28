@@ -342,7 +342,7 @@ ul#nav li.current a { color: #FF0077; }
 
 /* 13. portfolio - (_layout.scss) */
  
-#portfolio {
+/* #portfolio {
 	background: #151515;
 	padding-top: 7rem;
 	padding-bottom: 5rem;
@@ -350,11 +350,11 @@ ul#nav li.current a { color: #FF0077; }
 
 .port-col {
    display: grid;
-   /* width: 1200px; */
+   width: 1200px;
    grid-template-columns: repeat(3, 1fr);
    grid-template-rows: repeat(2, 1fr);
    column-gap: 2rem;
-}
+} */
 /* 
 #portfolio .folio-item {
 	padding: 0;

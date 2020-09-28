@@ -20,13 +20,15 @@ export default class Porfolio extends Component {
           <h1>Check Out Some of My Works</h1>
         </div> 
         <div className="row portfolio-content">
-          <div id="portfolio-wrapper" className="port-col">
+        <div class="col-twelve">
+
+          <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
             {resumeData.portfolio.map(item => {
               return(
                 <div key={item.key}>
-                  <div className="folio-item item-wrap">
-                    {/* <div className="item-wrap"> */}
+                  <div className=" bgrid folio-item">
+                    <div className="item-wrap">
                       <img src={`${item.imgUrl}`} alt={`${item.alt}`}/>
 
                       <a href={`#${item.modal}`} className="overlay">
@@ -40,8 +42,7 @@ export default class Porfolio extends Component {
                           </div>	                      	
                         </div>                    
                       </a>
-
-                    {/* </div>	                */}
+                    </div>	               
                   </div>
 
                   <div id={item.modal} className="popup-modal slider mfp-hide">	
@@ -64,6 +65,7 @@ export default class Porfolio extends Component {
             })};
           </div>
         </div>  
+        </div>
 {/* 
         <section class="work section" id="portfolio">
           <h2 class="section-title">My Portfolio</h2>
@@ -90,7 +92,7 @@ export default class Porfolio extends Component {
           </div>
         </section> */}
 
-        <section id="portfolio">
+        {/* <section id="portfolio">
 
           <div class="row section-intro">
             <div class="col-twelve">
@@ -108,43 +110,44 @@ export default class Porfolio extends Component {
             <div class="col-twelve">
 
               <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
                 <div class="bgrid folio-item">
                   <div class="item-wrap">
                     <img src="images/portfolio/liberty.jpg" alt="Liberty"/>
-                      <a href="#modal-01" class="overlay">
-                    <div class="folio-item-table">
-                      <div class="folio-item-cell">
-                        <h3 class="folio-title">Liberty</h3>	     					    
-                        <span class="folio-types">
+                    <a href="#modal-01" class="overlay">
+                      <div class="folio-item-table">
+                        <div class="folio-item-cell">
+                          <h3 class="folio-title">Liberty</h3>	     					    
+                          <span class="folio-types">
                             Graphic Design
-                        </span>
-                      </div>	                      
-                    </div>                    
-                  </a>
-                </div>	               
-              </div> 
+                          </span>
+                        </div>	                      
+                      </div>                    
+                    </a>
+                  </div>	 
+                </div> 
 
 
-              <div id="modal-01" class="popup-modal slider mfp-hide">	
-                <div class="media">
-                  <img src="images/portfolio/modals/m-liberty.jpg" alt="" />
-                </div>      	
+                <div id="modal-01" class="popup-modal slider mfp-hide">	
+                  <div class="media">
+                    <img src="images/portfolio/modals/m-liberty.jpg" alt="" />
+                  </div>      	
 
-                <div class="description-box">
-                  <h4>Liberty</h4>		      
-                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                  <div class="categories">Web Development</div>			               
-                </div>
-                <div class="link-box">
-                  <a href="http://www.behance.net">Details</a>
-                    <a href="#" class="popup-modal-dismiss">Close</a>
-                  </div>		      
-                </div>
-              </div> 
-              
+                  <div class="description-box">
+                    <h4>Liberty</h4>		      
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <div class="categories">Web Development</div>			               
+                  </div>
+                  <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                      <a href="#" class="popup-modal-dismiss">Close</a>
+                    </div>		      
+                  </div>
+                </div> 
+
             </div>
           </div> 
-        </section>
+        </section> */}
       </section> 
     ) 
   }

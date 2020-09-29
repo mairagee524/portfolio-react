@@ -678,7 +678,36 @@ ul#nav li.current a { color: #FF0077; }
 	}
 }
 
+.col-twelve,
+.col-full {
+	width: 100%;
+}
 
+.block-1-2 .bgrid {
+	width: 50%;
+}
+
+.block-1-2 .bgrid:nth-child(2n+1) {
+	clear: both;
+}
+
+@media screen and (max-width:600px) {
+	.block-mob-full .bgrid {
+		width: 100%;
+		clear: both;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.stack .bgrid {
+		width: 100% !important;
+		float: none !important;
+		clear: both !important;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+}
 
 
 

@@ -15,11 +15,9 @@ export default class Footer extends Component {
                             <li key={item.name}>
                                 <a href={item.url} target="_blank" rel="noopener noreferrer">
                                     <i className={item.className} />
-                                    
                                 </a>
                             </li>
-                        );
-                        })}
+                        )})}
                     </ul>
 
                     <ul className="footer-social">
